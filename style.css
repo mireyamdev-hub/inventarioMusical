@@ -1,0 +1,249 @@
+:root{
+    --color1: #AAABB8;
+    --color2: #464866;
+}
+
+body{
+    background: linear-gradient(to right, #5680E9, #84CEEB, #5AB9EA, #C1C8E4, #8860D0);
+
+}
+
+.container{
+    margin-top: 30px;
+    background: #f1f7fd;
+    box-shadow: 3px 3px 20px rgba(0,0,0,.3);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 1500px;
+}
+
+/* .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    max-width: 1500px;
+} */
+
+.container table{
+    width: 100%;
+    border-color: #84CEEB;
+}
+
+.container table thead{
+    vertical-align: middle;
+    border-bottom-color: #84CEEB;
+}
+
+.container table thead th,
+.container table tfoot th{
+    border-right-color: #84CEEB ;
+}
+
+.container table thead th:first-child,
+.container table tfoot th:first-child{
+    border-left-color: #c83030;
+}
+
+.container table thead th:last-child,
+.container table tfoot th:last-child{
+    border-right-color: #84CEEB;
+}
+
+.welcome-hero-txt { padding-top: 45px;
+
+}
+
+.welcome-hero-txt h2 {
+    font-size: 48px;
+    color: #5680E9;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 1.4;
+}
+.welcome-hero-txt p {
+    font-size: 18px;
+    color: #5680E9;
+    margin-top: 25px;
+}
+
+table thead tr th,
+table tbody tr td,
+table tfoot tr th{
+    text-align: left !important;
+}
+
+table thead th:last-child{
+    pointer-events: none;
+}
+
+table thead th:last-child .dt-column-order{
+    display: none;
+}
+
+
+
+
+
+table tbody tr{
+    cursor: pointer;
+}
+
+table tbody tr:nth-child(even){
+    background: #C1C8E4 !important;
+}
+
+table tbody tr:hover{
+    background: #5AB9EA !important;
+    color: white;
+}
+
+table tbody tr:hover td:not(:last-child){
+    border-right-color: #5AB9EA;
+}
+
+table tbody tr td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+table tbody tr td:first-child{
+    font-weight: 600;
+    text-align: center !important;
+}
+
+table tbody .dt-empty{
+    text-align: center !important;
+}
+
+table thead tr,
+table tfoot tr{
+    background: #5680E9;
+    color: white;
+}
+
+tbody tr td:last-child,
+thead tr th:last-child,
+tfoot tr th:last-child{
+    width: 160px;
+}
+
+
+
+
+
+.pagination .dt-paging-button.active .page-link{
+    background: #5AB9EA !important;
+    box-shadow: none;
+    border-color: #5AB9EA;
+}
+
+.pagination .dt-paging-button  .page-link{
+    border-color: #5AB9EA;
+}
+
+.dt-length .form-select{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Optional: just in case */
+}
+
+.dt-scroll-body{
+    border-bottom: none !important;
+}
+
+.container table tbody tr:last-child{
+    border-bottom-color: #5AB9EA;
+}
+
+.btn{
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.btn button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: #5AB9EA;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.btn button i{
+    font-size: 18px;
+}
+
+.dt-length label, 
+.dt-info{
+    color: #5AB9EA;
+    font-weight: 600 !important;
+}
+
+#dt-search-0{
+    border-color: #5AB9EA;
+    box-shadow: none;
+}
+
+#dt-length-0{
+    border-color: #5AB9EA;
+    box-shadow: none;
+}
+
+
+.actionBtn{
+    border: none;
+    outline: none;
+    background: #5AB9EA;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+tbody tr:hover .actionBtn{
+    background: #5AB9EA;
+    color: #8860D0;
+}
+
+
+
+
+
+
+/* Modal */
+.modal-header{
+    background: #5AB9EA;
+    color: white;
+}
+
+.cross{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background: transparent;
+}
+
+.modal span{
+    color: #5AB9EA;
+    font-size: 18px;
+}
+
+
+.submitBtn{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: #5AB9EA;
+    color: white;
+    font-weight: 600;
+}
